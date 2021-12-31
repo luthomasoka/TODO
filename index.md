@@ -65,3 +65,27 @@ ___Want a minimal version of this project to build your own React app? Check out
 - Want more details about React on Glitch? We've got a [Help Center article](https://help.glitch.com/kb/article/112) for you.
 - Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
 - Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <!-- This is the main template for the site, with index.jsx building the content and behavior -->
+
+    <title>Hello React!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <style> 
+      .incorrect {
+      color: red;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index.b960b57a.js"></script>
+    <link rel="modulepreload" href="/assets/vendor.af97c9c4.js">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+  </body>
+</html>
